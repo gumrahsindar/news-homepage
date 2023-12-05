@@ -24,7 +24,7 @@ export default function NavMenu() {
       />
       <div>
         {/* logo & menu items container */}
-        <nav className='items-c relative flex justify-between'>
+        <nav className='relative flex items-center justify-between'>
           <Logo />
           {/* menu items */}
           <ul className='hidden items-center gap-x-10 md:flex'>{menuItems}</ul>
