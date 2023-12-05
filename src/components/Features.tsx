@@ -29,19 +29,25 @@ export default function Features() {
         <div className='mt-12 grid gap-4 bg-dark-blue px-6 py-8 md:col-start-3 md:row-span-2 md:mt-0'>
           <h2 className='text-2xl font-bold  text-soft-orange md:text-3xl'>New</h2>
           <div className=''>
-            <h3 className='text-xl font-bold text-off-white'>Hydrogen VS Electric Cars</h3>
+            <h3 className='cursor-pointer text-xl font-bold text-off-white duration-200 hover:text-soft-orange'>
+              Hydrogen VS Electric Cars
+            </h3>
             <p className='mt-2 max-w-xs text-grayish-blue'>Will hydrogen-fueled cars ever catch up to EVs?</p>
           </div>
           <div className='border-t-2 border-grayish-blue' />
           <div className=''>
-            <h3 className='text-xl font-bold text-off-white'>The Downsides of AI Artistry</h3>
+            <h3 className='cursor-pointer text-xl font-bold text-off-white duration-200 hover:text-soft-orange'>
+              The Downsides of AI Artistry
+            </h3>
             <p className='mt-2 max-w-xs text-grayish-blue'>
               What are the possible adverse effects of on-demand AI image generation?
             </p>
           </div>
           <div className='border-t-2 border-grayish-blue' />
           <div className=''>
-            <h3 className='text-xl font-bold text-off-white'>Is VC Funding Drying Up?</h3>
+            <h3 className='cursor-pointer text-xl font-bold text-off-white duration-200 hover:text-soft-orange'>
+              Is VC Funding Drying Up?
+            </h3>
             <p className='mt-2 max-w-xs text-grayish-blue'>
               Private funding by VC firms is down 50% YOY. We take a look at what that means.
             </p>
